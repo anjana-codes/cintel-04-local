@@ -1,5 +1,6 @@
 # cintel-04-local
 real Python data project-Project 4
+
 PyShiny Express: Palmer Penguins Dashboard
 Repository: pyshiny-penguins-dashboard-express
 Live App: Penguins Dashboard (Express)
@@ -143,6 +144,12 @@ The Shiny development team. Shiny for Python [Computer software]. https://github
 
 Screenshots
 Running the Shiny for Python app locally on port 8000.
+
+Running the Shiny for Python app locally
+
+Serving the static app locally from the docs folder (as GitHub Pages will) on port 8008. The browser tab shows a custom tab title and favicon. Recommended: Build your own favicon at https://favicon.io/.
+
+Serving the app locally from the docs folder
 
 Running the Shiny for Python app locally
 
