@@ -59,6 +59,7 @@ Create a Project Virtual Environment (generally one-time setup)
 Create a project virtual environment in the .venv folder of the project root directory.
 
 py -m venv .venv
+
 Creating a project virtual environment is generally a one-time setup. Once the folder exists, we can activate it to work on the project.
 
 If VS Code pops up and says: We noticed a new environment has been created. Do you want to select it for the workspace folder? select Yes.
@@ -92,6 +93,7 @@ With the project virtual environment active in the terminal, run the following c
 
 py -m pip install --upgrade pip setuptools
 py -m pip install --upgrade -r requirements.txt
+
 Installing packages is generally a one-time setup.
 
 Run the App
@@ -111,9 +113,11 @@ This optional effort changes the HTML so the GitHub Pages web app will open in a
 
     <title>PyShiny Penguins</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    
 After the app is built, serve the app locally from the docs folder to test before publishing to GitHub Pages. In the terminal, run the following command from the root of the project folder:
 
 py -m http.server --directory docs --bind localhost 8008
+
 Open a browser (tested with Chrome) and navigate to http://localhost:8008 to view the app running locally.
 
 After Editing, Git Add/Commit/Push Changes to GitHub
