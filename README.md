@@ -1,6 +1,5 @@
 # cintel-04-local
 real Python data project-Project 4
-
 PyShiny Express: Palmer Penguins Dashboard
 Repository: pyshiny-penguins-dashboard-express
 Live App: Penguins Dashboard (Express)
@@ -59,7 +58,6 @@ Create a Project Virtual Environment (generally one-time setup)
 Create a project virtual environment in the .venv folder of the project root directory.
 
 py -m venv .venv
-
 Creating a project virtual environment is generally a one-time setup. Once the folder exists, we can activate it to work on the project.
 
 If VS Code pops up and says: We noticed a new environment has been created. Do you want to select it for the workspace folder? select Yes.
@@ -93,7 +91,6 @@ With the project virtual environment active in the terminal, run the following c
 
 py -m pip install --upgrade pip setuptools
 py -m pip install --upgrade -r requirements.txt
-
 Installing packages is generally a one-time setup.
 
 Run the App
@@ -113,11 +110,9 @@ This optional effort changes the HTML so the GitHub Pages web app will open in a
 
     <title>PyShiny Penguins</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    
 After the app is built, serve the app locally from the docs folder to test before publishing to GitHub Pages. In the terminal, run the following command from the root of the project folder:
 
 py -m http.server --directory docs --bind localhost 8008
-
 Open a browser (tested with Chrome) and navigate to http://localhost:8008 to view the app running locally.
 
 After Editing, Git Add/Commit/Push Changes to GitHub
@@ -145,18 +140,3 @@ Data originally published in:
 
 Gorman KB, Williams TD, Fraser WR (2014). Ecological sexual dimorphism and environmental variability within a community of Antarctic penguins (genus Pygoscelis). PLoS ONE 9(3):e90081. https://doi.org/10.1371/journal.pone.0090081
 The Shiny development team. Shiny for Python [Computer software]. https://github.com/posit-dev/py-shiny
-
-Screenshots
-Running the Shiny for Python app locally on port 8000.
-
-Running the Shiny for Python app locally
-
-Serving the static app locally from the docs folder (as GitHub Pages will) on port 8008. The browser tab shows a custom tab title and favicon. Recommended: Build your own favicon at https://favicon.io/.
-
-Serving the app locally from the docs folder
-
-Running the Shiny for Python app locally
-
-Serving the static app locally from the docs folder (as GitHub Pages will) on port 8008. The browser tab shows a custom tab title and favicon. Recommended: Build your own favicon at https://favicon.io/.
-
-Serving the app locally from the docs folder
